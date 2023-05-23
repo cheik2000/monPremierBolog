@@ -13,6 +13,7 @@ class Post(models.Model):
 
     def publier(self):
         self.date_publication = timezone.now()
+        self.save()
 
     def __str__(self):
         return self.titre
