@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#param1 {
+    color: blue;
+}
+
+/*
+    Ce style s'applique aux éléments html qui on un attribut class="classe1"
+*/
+.classe1 {
+    color: brown;
+    font-size: 30px;
+}
